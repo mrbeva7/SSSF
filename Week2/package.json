@@ -1,0 +1,20 @@
+{
+  "name": "server-side-scripting-framework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "supervisor -w index.js -n success index.js"
+  },
+  "author": "Rubing Mao",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^3.18.0",
+    "eslint-config-google": "^0.7.1",
+    "supervisor": "^0.12.0"
+  },
+  "dependencies": {
+    "moment": "^2.18.1"
+  }
+}
